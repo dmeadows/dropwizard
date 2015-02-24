@@ -64,6 +64,7 @@
         <h2.version>1.4.185</h2.version>
         <assertj.version>1.7.1</assertj.version>
         <mockito.version>1.10.17</mockito.version>
+	<dropwizard.version>0.7.1</dropwizard.version>
     </properties>
 
     <developers>
@@ -275,6 +276,11 @@
             <version>${assertj.version}</version>
             <scope>test</scope>
         </dependency>
+	<dependency>
+		<groupId>io.dropwizard</groupId>
+		<artifactId>dropwizard-core</artifactId>
+		<version>${dropwizard.version}</version>
+	</dependency>
     </dependencies>
 
     <dependencyManagement>
